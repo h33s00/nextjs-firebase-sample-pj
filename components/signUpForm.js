@@ -14,6 +14,7 @@ export default function SignUpForm() {
         <label htmlFor="name">
           이름
         </label>
+        <input id="name" type="text" name="name" ref={register("이름을 입력해주세요")} />
       </div>
       <input id="name" type="text" name="name" ref={register("example")} />
       
